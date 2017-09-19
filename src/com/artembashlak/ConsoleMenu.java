@@ -1,4 +1,4 @@
-package com.waverleysoftware;
+package com.artembashlak;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;

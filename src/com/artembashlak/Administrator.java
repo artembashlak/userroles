@@ -1,4 +1,4 @@
-package com.waverleysoftware;
+package com.artembashlak;
 
 public final class Administrator extends User {
 

@@ -1,4 +1,4 @@
-package com.waverleysoftware;
+package com.artembashlak;
 
 public abstract class User {
 
