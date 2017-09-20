@@ -5,14 +5,6 @@ import java.io.IOException;
 
 public class ConsoleMenu {
 
-
-
-    public static int index = -1;
-
-    public static int productId = 1;
-
-    private boolean isRemeberPassword = false;
-
     private boolean conditionalExit = true;
 
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -35,7 +27,7 @@ public class ConsoleMenu {
     }
 
     private void chooseRole() throws IOException {
-        System.out.println("Select role :: " + "\t" + "1-Administrator   2-Manager  3-Guest");
+        System.out.println("Select role 1: " + "\t" + "1-Administrator   2-Manager  3-Guest");
         int number = 0;
         try {
             number = Integer.parseInt(reader.readLine());
